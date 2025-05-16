@@ -92,7 +92,7 @@ export default function SlavesPage() {
         <h1 className="text-3xl font-bold tracking-wide">Lista de Esclavos</h1>
         <Link
           href="/slaves/new"
-          className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-gray-900 rounded-full px-4 py-2 font-semibold transition-shadow shadow-md hover:shadow-lg"
+          className="flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-gray-900 rounded-full px-4 py-2 font-semibold transition-shadow shadow-md hover:shadow-lg"
           title="Agregar nuevo esclavo"
         >
           <Plus className="h-5 w-5" />
@@ -119,7 +119,7 @@ export default function SlavesPage() {
             >
               <div>
                 <h2 className="text-2xl font-semibold mb-1">
-                  {slave.name} <span className="text-amber-400">({slave.nickname})</span>
+                  {slave.name} <span className="text-amber-500">({slave.nickname})</span>
                 </h2>
                 <p className="mb-2 text-gray-400 italic">Origen: {slave.origin}</p>
                 <div className="mb-3 flex gap-3">
